@@ -2,4 +2,41 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    list-style-type: none;
+}
+
+.container {
+    max-width: 1300px;
+    margin: auto;
+    /* margin: auto; bulunduğu satırın ortasına hizalar. */
+    padding: 0 25px 0 25px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul {
+    display: inline-flex;
+    /* ul tag'i, inline'dan dolayı tüm satıra yayılmaz. Sadece hacmi kadar yere yayılır. 
+    flex özelliği ise ul içindeki elementleri yan yana sıralar.
+    eğer display: flex; deseydik, ul tüm satırı kaplardı ve içindeki elementler yana yana dizilirdi.
+    eğer display: block; deseydik, ul yine tüm satırı kaplardı fakat elementler bu sefer alt alta dizilirdi.
+    özetle; inline-flex ifadesinde, inline özelliği parent elementi, flex ifadesi de child elementi etkiler. */
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #555;
 }
