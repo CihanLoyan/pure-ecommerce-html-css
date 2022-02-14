@@ -84,7 +84,7 @@ a:hover {
     color: #fff;
     padding: 15px 30px;
     margin: 30px 0;
-    border-style: none;
+    border: .1px solid #ff523b;
     border-radius: 25px;
     cursor: pointer;
     font-family: 'Lato', sans-serif;
@@ -93,7 +93,7 @@ a:hover {
 .btn:hover {
     color: #ff523b;
     background-color: #fff;
-    border: .5px solid #ff523b;
+    border: .1px solid #ff523b;
 }
 
 i {
@@ -181,4 +181,18 @@ h4 {
 
 .rating .fa {
     color: #ff523b;
+}
+
+.offer {
+    background: radial-gradient(#fff, #ffd6d6);  
+    margin-top: 80px;
+    padding: 30px 0;
+}
+
+.col-2 .offer-img {
+    padding: 50px;
+}
+
+small {
+    color: #555;
 }
