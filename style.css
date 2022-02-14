@@ -149,7 +149,7 @@ ul .cart-li:hover {
 
 .title {
     text-align: center;
-    margin: 0 auto 50px;
+    margin: 50px auto;
     color: #555;
     line-height: 60px;
     position: relative;
@@ -195,4 +195,63 @@ h4 {
 
 small {
     color: #555;
+}
+
+.footer {
+    color: #8a8a8a;
+    background: #000;
+    font-size: 14px;
+    padding: 60px 0 20px;
+}
+
+.footer p {
+    color: #8a8a8a;
+}
+
+.footer h3 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4 {
+    min-width: 250px;
+    margin-bottom: 20px;
+}
+
+.footer-col-1 {
+    flex-basis: 30%;
+}
+
+.footer-col-2 {
+    flex: 1;
+    text-align: center;
+}
+
+.footer-col-2 img {
+    width: 180px;
+    margin-bottom: 20px;
+}
+
+.footer-col-3, .footer-col-4 {
+    flex-basis: 12%;
+    text-align: center;
+}
+
+.app-logo {
+    margin-top: 20px;
+}
+
+.app-logo img {
+    width: 140px;
+}
+
+.footer hr {
+    border: none;
+    background: #b5b5b5;
+    height: 1px;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 20px;
 }
