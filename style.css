@@ -255,3 +255,8 @@ small {
     text-align: center;
     margin-top: 20px;
 }
+
+.menu-icon {
+    width: 28px;
+    margin-bottom: 7px;
+}
