@@ -256,8 +256,9 @@ small {
     margin-top: 20px;
 }
 
-.menu-icon {
-    width: 28px;
+.navbar .fa-bars {
+    display: none;
+    font-size: 30px;
     margin-bottom: 7px;
 }
 
@@ -266,9 +267,11 @@ small {
         position: absolute;
         top: 70px;
         left: 0;
-        background: #f97968;
+        background: #000;
         display: block;
         width: 100%;
+        overflow: hidden;
+        transition: max-height .5s;
     }
 
     nav ul li {
@@ -281,7 +284,17 @@ small {
         color: #fff;
     }
 
-    .fa-solid {
-        display: none;
+    .navbar .fa-bars {
+        display: flex;
+        cursor: pointer;
+    }
+
+    .navbar {
+        padding-right: 0;
+    }
+
+    ul .cart-li:hover {
+        transform: none;
+        transition: none;
     }
 }
