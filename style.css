@@ -260,3 +260,28 @@ small {
     width: 28px;
     margin-bottom: 7px;
 }
+
+@media(max-width:768px){
+    nav ul {
+        position: absolute;
+        top: 70px;
+        left: 0;
+        background: #f97968;
+        display: block;
+        width: 100%;
+    }
+
+    nav ul li {
+        margin-right: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    nav ul li a {
+        color: #fff;
+    }
+
+    .fa-solid {
+        display: none;
+    }
+}
