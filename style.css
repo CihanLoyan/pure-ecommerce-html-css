@@ -11,6 +11,7 @@ body {
 
 .header {
     background: radial-gradient(#fff, #ffd6d6);
+    box-shadow: 0px 3px 10px 0 rgba(0,0,0, 0.5);
 }
 
 .container {
@@ -297,6 +298,23 @@ small {
         transform: none;
         transition: none;
     }
+}
+
+/* -------------------------------------- All Products Page ------------------------------------*/
+
+.row-2 {
+    justify-content: space-between;
+    margin: 100px auto 50px;
+}
+
+select {
+    border: 1px solid #ff523b;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+select:focus {
+    outline: none;
 }
 
 @media(max-width: 600px) {
